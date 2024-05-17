@@ -1,0 +1,40 @@
+/* styles.css */
+
+/* General reset for margins and padding */
+body, h4, div {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header styling */
+header {
+    background-color: cyan;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Styling for each div in the header */
+header > div {
+    text-align: center;
+}
+
+/* Ensure the header is properly responsive */
+@media (max-width: 600px) {
+    header {
+        flex-direction: column;
+    }
+}
+
+/* Optional: Add some spacing between the items */
+header > div {
+    margin: 0 10px;
+}
+
+/* Styling for the h4 elements */
+header h4 {
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+}
