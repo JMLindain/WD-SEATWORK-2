@@ -9,7 +9,7 @@
 
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h1 align="center">Seatwork 2</h1>
+  <h1 align="center">Seatwork 2 | RESUME</h1>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
@@ -57,27 +57,26 @@
 
 <!-- TODO: To be changed -->
 <!-- The following are just sample -->
-Description of the project in details.
 
-Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
+
+This Resume Portfolio project is a single-page document developed using HTML and CSS. It aims to present a detailed and minimalist summary of my professional qualifications and experiences. Key components include sections for contact information, a professional summary, detailed descriptions of experiences, educational background, and a list of relevant skills. HTML structures the content, while CSS ensures the visual presentation is polished and professional. This portfolio serves as my effective tool for job applications and professional networking.
+
+
+
+
+
+
+
 
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
-- MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
+- Minimalistic design
 
 ### Technology
 <!-- TODO: List of Technology Used -->
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white)
-
 ## Rules and Principles
 1. Always use ***WD-*** in the front of the Title of the Project for the Subject followed by your custom naming.
 2. Do not rename any .html files; always use 'index.html' as the filename.
