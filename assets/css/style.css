@@ -1,40 +1,65 @@
-/* styles.css */
-
-/* General reset for margins and padding */
-body, h4, div {
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    background-color: #f9f9f9;
+    color: #333;
 }
 
-/* Header styling */
-header {
-    background-color: cyan;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+.container {
+    width: 60%;
+    margin: 20px auto;
     padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
 }
 
-/* Styling for each div in the header */
-header > div {
+.header {
     text-align: center;
+    margin-bottom: 20px;
 }
 
-/* Ensure the header is properly responsive */
-@media (max-width: 600px) {
-    header {
-        flex-direction: column;
-    }
+.header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #333;
 }
 
-/* Optional: Add some spacing between the items */
-header > div {
-    margin: 0 10px;
+.header p {
+    margin: 5px 0;
+    color: #777;
 }
 
-/* Styling for the h4 elements */
-header h4 {
-    font-size: 18px;
-    font-family: Arial, sans-serif;
+.section {
+    margin-bottom: 20px;
+}
+
+.section h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    color: #333;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+}
+
+.section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.section ul li {
+    margin-bottom: 15px;
+}
+
+.section ul li h3 {
+    margin: 0;
+    font-size: 1.3em;
+    color: #333;
+}
+
+.section ul li p {
+    margin: 5px 0;
+    color: #555;
 }
